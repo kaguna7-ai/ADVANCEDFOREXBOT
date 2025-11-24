@@ -1,0 +1,16 @@
+exchange: binance
+symbol: BTC/USDT
+timeframe: 1m
+strategy:
+  ema_short: 9
+  ema_long: 21
+  rsi_period: 14
+risk:
+  max_position_size_pct: 0.02  # 2% of account equity per trade
+  stop_loss_pct: 0.01          # 1% stop
+  take_profit_pct: 0.02        # 2% TP
+logging:
+  level: INFO
+order:
+  type: market
+  leverage: 1
