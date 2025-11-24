@@ -1,6 +1,6 @@
-exchange: binance
-symbol: BTC/USDT
-timeframe: 1m
+exchange: MT5
+symbol: EURUSD
+timeframe: 1h
 strategy:
   ema_short: 9
   ema_long: 21

@@ -1,12 +1,10 @@
-ccxt>=3.0.0
+MetaTrader5>=5.0.0
 pandas>=2.0
 numpy>=1.25
 python-dotenv
-aiohttp
 ta
 pyyaml
 uvicorn
 fastapi
 loguru
 requests
-websockets
